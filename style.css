@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 80px;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.top-page {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.button {
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.img2 img {
+    width: 60%;
+    margin-left: 30px;
+}
