@@ -17,7 +17,7 @@ h3 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -46,6 +46,7 @@ section {
 
 .button {
     background-image: linear-gradient(orange, tomato);
+    /* background-color: tomato; */
     color: white;
     text-decoration: none;
     padding: 10px 30px;
@@ -57,4 +58,41 @@ section {
 .img2 img {
     width: 60%;
     margin-left: 30px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+
+#experience-section h1 {
+    margin-left: 5%;
+}
+
+#full-stack-item {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#baby-item {
+    border-left: 5px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+
+#experience-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
